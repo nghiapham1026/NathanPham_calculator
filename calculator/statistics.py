@@ -16,7 +16,15 @@ def median(data):
 def mode(data):
     from collections import Counter
     count = Counter(data)
-    return count.most_common(1)[0][0]
+    modes = count.most_common()  # Get all elements with their counts
+    
+    max_count = modes[0][1]  # The highest count
+    modes_with_max_count = [num for num, freq in modes if freq == max_count]
+    
+    if len(modes_with_max_count) > 1:
+        return modes_with_max_count  # Return all modes if there are multiple
+    else:
+        return modes_with_max_count[0]  # Return the single mode
 
 def standard_deviation(data):
     if len(data) == 0:

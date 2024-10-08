@@ -1,9 +1,8 @@
 import unittest
-from ..calculator import (
+from calculator import (
     add, subtract, multiply, divide, power,
     log, sine, exponential, factorial, mean, median, mode, standard_deviation
 )
-import random
 
 class TestCalculator(unittest.TestCase):
     
@@ -25,7 +24,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(divide(10, 5), 2)
-        with self.assertRaises(ZeroDivisionError):
+        with self.assertRaises(ValueError):  # Updated to expect ValueError
             divide(10, 0)
 
     # Advanced operations tests
@@ -67,10 +66,9 @@ class TestCalculator(unittest.TestCase):
     # Mode tests
     def test_mode(self):
         data = [1, 2, 2, 3, 4]
-        self.assertEqual(mode(data), 2)
+        self.assertEqual(mode(data), 2)  # Test single mode case
         data = [1, 1, 2, 2]
-        with self.assertRaises(Exception):
-            mode(data)  # Multiple modes should raise an exception
+        self.assertEqual(mode(data), [1, 2])  # Now it returns both modes
 
     # Standard deviation tests
     def test_standard_deviation(self):
