@@ -11,4 +11,3 @@ calculator/complex_numbers.py
 calculator/logarithms.py
 calculator/statistics.py
 calculator/trigonometry.py
-tests/test_calculator.py
