@@ -1,22 +1,19 @@
-from setuptools import setup, find_packages
+import setuptools
 
-setup(
-    name='nathan_calculator',  # Name of your package
-    version='0.1',  # Initial version
-    author='Nathan Pham',  # Your name
-    author_email='nathan@example.com',  # Your email
-    description='A simple Python calculator for basic and advanced operations',
-    long_description=open('README.md').read(),  # Make sure you have a README.md file
-    long_description_content_type='text/markdown',  # If your README is in markdown format
-    url='https://github.com/nghiapham1026/nathan_calculator',  # URL to your repository (if any)
-    packages=find_packages(),  # Automatically finds all packages in the directory
+setuptools.setup(
+    name="NathanPham_calculator",  # Change to your preferred package name
+    version="0.1.0",
+    author="Nathan Pham",  # Replace with your name
+    author_email="nghia.pham@sjsu.edu",  # Replace with your email
+    description="An advanced calculator package",  # Brief description of your package
+    long_description=open('README.md').read(),  # Long description read from README file
+    long_description_content_type="text/markdown",
+    url="https://github.com/nghiapham1026/NathanPham_calculator",  # URL to your package repository
+    packages=setuptools.find_packages(),  # Automatically find packages in your project
     classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',  # Choose your license, e.g., MIT, Apache, etc.
-        'Operating System :: OS Independent',
+        "Programming Language :: Python :: 3",  # Specify supported Python versions
+        "License :: OSI Approved :: MIT License",  # License type (adjust if needed)
+        "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',  # Minimum Python version requirement
-    install_requires=[
-        # List any third-party dependencies your project needs
-    ],
+    python_requires='>=3.6',  # Specify the minimum Python version required
 )
