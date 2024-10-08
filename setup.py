@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="NathanPham_calculator",
-    version="0.1.2",
+    version="0.1.3",
     author="Nathan Pham",
     author_email="nghia.pham@sjsu.edu",
     description="An advanced calculator package",

@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 NathanPham_calculator.egg-info/PKG-INFO
