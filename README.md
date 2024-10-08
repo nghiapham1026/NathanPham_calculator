@@ -10,4 +10,4 @@ python -m tests.test_trigonometry
 
 python setup.py sdist bdist_wheel
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
-pip install --index-url https://test.pypi.org/simple/ NathanPham_calculator
+pip install --upgrade --index-url https://test.pypi.org/simple/ NathanPham_calculator
