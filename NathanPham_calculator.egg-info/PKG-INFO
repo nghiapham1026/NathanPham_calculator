@@ -1,12 +1,10 @@
 Metadata-Version: 2.1
-Name: NathanPham-calculator
-Version: 0.1.0
+Name: NathanPham_calculator
+Version: 0.1.1
 Summary: An advanced calculator package
 Home-page: https://github.com/nghiapham1026/NathanPham_calculator
 Author: Nathan Pham
 Author-email: nghia.pham@sjsu.edu
-License: UNKNOWN
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -15,7 +13,11 @@ Description-Content-Type: text/markdown
 
 python -m tests.test_calculator
 python -m tests.unittest_calculator
+python -m tests.test_advanced_operations
+python -m tests.test_basic_operations
+python -m tests.test_complex_numbers
+python -m tests.test_logarithms
+python -m tests.test_statistics
+python -m tests.test_trigonometry
 
 pip install --index-url https://test.pypi.org/simple/ NathanPham_calculator
-
-
