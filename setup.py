@@ -1,19 +1,19 @@
 import setuptools
 
 setuptools.setup(
-    name="NathanPham_calculator",  # Change to your preferred package name
+    name="NathanPham_calculator",
     version="0.1.0",
-    author="Nathan Pham",  # Replace with your name
-    author_email="nghia.pham@sjsu.edu",  # Replace with your email
-    description="An advanced calculator package",  # Brief description of your package
-    long_description=open('README.md').read(),  # Long description read from README file
+    author="Nathan Pham",
+    author_email="nghia.pham@sjsu.edu",
+    description="An advanced calculator package",
+    long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/nghiapham1026/NathanPham_calculator",  # URL to your package repository
-    packages=setuptools.find_packages(),  # Automatically find packages in your project
+    url="https://github.com/nghiapham1026/NathanPham_calculator",
+    packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",  # Specify supported Python versions
-        "License :: OSI Approved :: MIT License",  # License type (adjust if needed)
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',  # Specify the minimum Python version required
+    python_requires='>=3.6',
 )

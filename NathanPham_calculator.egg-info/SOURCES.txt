@@ -1,0 +1,14 @@
+README.md
+setup.py
+NathanPham_calculator.egg-info/PKG-INFO
+NathanPham_calculator.egg-info/SOURCES.txt
+NathanPham_calculator.egg-info/dependency_links.txt
+NathanPham_calculator.egg-info/top_level.txt
+calculator/__init__.py
+calculator/advanced_operations.py
+calculator/basic_operations.py
+calculator/complex_numbers.py
+calculator/logarithms.py
+calculator/statistics.py
+calculator/trigonometry.py
+tests/test_calculator.py
