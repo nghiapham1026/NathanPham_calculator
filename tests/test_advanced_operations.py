@@ -1,5 +1,5 @@
 import unittest
-from calculator import power, sqrt, factorial  # Replace 'your_module_name' with the actual module name
+from calculator import power, sqrt, factorial
 
 class TestAdvancedOperations(unittest.TestCase):
 

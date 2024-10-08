@@ -1,7 +1,7 @@
 import unittest
 from calculator import (
     add, subtract, multiply, divide, power,
-    log, sine, exponential, factorial, mean, median, mode, standard_deviation
+    log, sine, factorial, mean, median, mode, standard_deviation
 )
 
 class TestCalculator(unittest.TestCase):

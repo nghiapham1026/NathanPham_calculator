@@ -1,4 +1,4 @@
-from calculator import *
+from calculator import add, subtract, multiply, divide, power, log, sine, exponential, factorial, mean, median, mode, standard_deviation
 import random
 
 # Basic operations

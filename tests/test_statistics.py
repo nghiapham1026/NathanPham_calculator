@@ -1,5 +1,5 @@
 import unittest
-from calculator import mean, median, mode, standard_deviation  # Replace 'your_module_name' with the actual module name
+from calculator import mean, median, mode, standard_deviation
 
 class TestStatistics(unittest.TestCase):
 

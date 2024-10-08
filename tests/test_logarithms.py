@@ -1,5 +1,5 @@
 import unittest
-from calculator import log, ln, exponential  # Replace 'your_module_name' with the actual module name
+from calculator import log, ln, exponential
 import math
 
 class TestLogarithmFunctions(unittest.TestCase):

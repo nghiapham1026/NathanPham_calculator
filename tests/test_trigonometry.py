@@ -1,6 +1,6 @@
 import unittest
 import math
-from calculator import sine, cosine, tangent  # Replace 'your_module_name' with the actual module name
+from calculator import sine, cosine, tangent
 
 class TestTrigonometryFunctions(unittest.TestCase):
 
